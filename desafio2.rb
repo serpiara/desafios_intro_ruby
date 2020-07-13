@@ -15,12 +15,14 @@ end
 #Utilizar .select para crear un arreglo con todos
 #los nombres que empiecen con P.
 def select_inicia_P(names)
-    imp= names.select{|nombres|nombres if nombre[0] =='P'}    
-    print "los nombres en minúscula #{imp} \n"
+    imp= names.select{|nombres|nombres if nombres[0] =='P'}    
+    print "los nombres en que inician con P #{imp} \n"
 end  
 
 #Utilizando .count , contar los elementos que empiecen
 # con 'A', 'B' o 'C'.
+
+
 
 #Utilizando .map , crear un arreglo único con la
 # cantidad de letras que tiene cada nombre.
@@ -30,3 +32,4 @@ nombre=['Violeta', 'Andino', 'Clemente','Javiera', 'Paula', 'Pía', 'Ray']
 
 select_largo_may_5(nombre)
 map_minus(nombre)
+select_inicia_P(nombre)
