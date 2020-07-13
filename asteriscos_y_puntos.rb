@@ -5,6 +5,5 @@ n.times do |i|
     else
         print '.'
     end    
-   
 end    
 puts "\n"
