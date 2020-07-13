@@ -15,6 +15,8 @@ end
 #Utilizando select descartar todos los elementos 
 #menores a 5 en el array
 def select_menor_5(arr)
+    sel = arr.select{ |x| x > 5}
+    puts "El array sin elementos menores a 5 #{sel}"    
 end
 
 #Utilizando inject sumar todos los valores del array
@@ -33,5 +35,6 @@ arreglo = [1,9,2,10,3,7,4,6]
 
 map_sumar(arreglo)
 map_float(arreglo)
+select_menor_5(arreglo)
 inject_sum(arreglo)
 count_menor_5(arreglo)
