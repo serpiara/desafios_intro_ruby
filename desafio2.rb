@@ -26,18 +26,13 @@ def select_inicia_ABC(names)
     print "La cantidad de nombres en que inician con A,B o C es #{imp} \n"
 end  
 
-
 #Utilizando .map , crear un arreglo único con la
 # cantidad de letras que tiene cada nombre.
 def map_contar_letras(names)
     imp= names.map{|nombres|nombres.length}    
     print "Arrglo con la cantidad de letras de cada nombre #{imp} \n"
 end    
-
-
-
 nombre=['Violeta', 'Andino', 'Clemente','Javiera', 'Paula', 'Pía', 'Ray']
-
 select_largo_may_5(nombre)
 map_minus(nombre)
 select_inicia_P(nombre)
