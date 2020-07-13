@@ -28,7 +28,8 @@ end
 #Utilizando .count contar todos los elementos menores
 #que 5.
 def count_menor_5(arr)
-    puts arr.count 
+    con = arr.count{|cont| cont < 5} 
+    puts "Los elementos del array menores que 5 son #{con}"    
 end
 
 arreglo = [1,9,2,10,3,7,4,6]
